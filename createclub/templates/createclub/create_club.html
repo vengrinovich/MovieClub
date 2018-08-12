@@ -1,0 +1,6 @@
+<h1>Create Movie Club</h1>
+    
+    <form method="POST" class="create_club_form">{% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="create_club_submit">Save</button>
+    </form>
